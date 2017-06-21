@@ -11,8 +11,7 @@ import org.springframework.data.repository.NoRepositoryBean;
  * The following methods are some of the ones available from CrudRepository: 
  * save, delete, deleteAll, findOne and findAll.
  * 
- * All methods in this repository will be available in the UserRepository,
- * in the PersonRepository and in the CompanyRepository.
+ * All methods in this repository will be available in the Request repositories.
  * 
  * @author Richard
  */

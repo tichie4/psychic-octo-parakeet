@@ -26,9 +26,6 @@ public class RequestDeserializer extends JsonDeserializer<Request> {
         } else {
         	requestClass = NormalRequest.class;
         }
-        if (requestClass == null){
-            return null;
-        }
         return mapper.convertValue(root, requestClass);
     }
     

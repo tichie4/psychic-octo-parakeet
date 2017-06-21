@@ -1,13 +1,13 @@
 # psychic-octo-parakeet
 
-This application implements a queue populated with Request objects. Objects can be added and removed. Other operations are also available
+This application implements queuing for Request objects. Objects can be added and removed. Other operations are also available
 
 ## Compatibility
  JDK 8
  
 ## Build and Deploy
 ### Build
-To build the jar simply run `./gradlew build` in the base directory of the repository. This will generate a in the build/libs directory called psychic-octo-parakeet-{version}.jar
+To build the jar simply run `./gradlew build` in the base directory of the repository. This will generate a jar in the build/libs directory called psychic-octo-parakeet-{version}.jar
 
 ### Deploy
 For simplicity this jar provides it's own tomcat container. To run the application use java to run the jar: `java -jar build/libs/psychic-octo-parakeet-{version}.jar`
