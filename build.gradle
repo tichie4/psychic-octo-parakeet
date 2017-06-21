@@ -13,7 +13,7 @@ apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'gs-accessing-data-rest'
+    baseName = 'psychic-octo-parakeet'
     version = '0.1.0'
 }
 
