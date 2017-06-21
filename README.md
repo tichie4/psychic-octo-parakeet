@@ -16,7 +16,7 @@ For simplicity this jar provides it's own tomcat container. To run the applicati
 Base application URL: http://localhost:8080/queue-app
 
 | Resource        | Method           | Parameters  | Request Body   | Function |
-| ------------- |:-------------:|:-----:| -------------:| 
+| ------------- |:-------------:|:-----:|:-------------:| --------:|
 | requests/enqueue      | PUT |   | {"customerId": 5, "date": "2017-06-19 09:00:00"} | Add Request to the queue |
 | requests/delete/{id}      | DELETE |       |       | Delete Request from the queue |
 | requests/dequeue      | GET     |      |      | Get highest priority Request and remove from the queue | 
